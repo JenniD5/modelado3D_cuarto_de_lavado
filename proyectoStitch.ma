@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
-//Name: proyectoMemo1.ma
-//Last modified: Fri, Sep 10, 2021 11:11:23 PM
+//Name: proyectoStitch.ma
+//Last modified: Fri, Sep 10, 2021 11:11:38 PM
 //Codeset: 1252
 requires maya "2020";
 currentUnit -l centimeter -a degree -t film;
@@ -9,7 +9,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19042)\n";
-fileInfo "UUID" "BFFB2A8F-4DE8-1CF4-BCFF-FF814EC5EC15";
+fileInfo "UUID" "53A6971A-4DA8-BF1B-A4A2-78847DDB7CB0";
 createNode transform -s -n "persp";
 	rename -uid "BCA8B3D2-4764-7A3C-6FD5-1B92D4B83335";
 	setAttr ".v" no;
@@ -5231,4 +5231,4 @@ connectAttr "groupId6.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId7.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId8.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId9.msg" ":initialShadingGroup.gn" -na;
-// End of proyectoMemo1.ma
+// End of proyectoStitch.ma
